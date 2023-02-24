@@ -1,13 +1,15 @@
 :root{
     --font1: 'Fira Sans Extra Condensed', sans-serif;
     --font2: 'Poppins', sans-serif;
+    --color1: #cad2c5;
+    --color2: #48cae4;
 }
 
 body{
     font-family: var(--font1);
-    background-color: rgb(6, 6, 55);
-    max-width: 1200px;
+    background-color: #023047;
     height: 100vh;
+    width: 100%;
 }
 
 header{
@@ -18,8 +20,8 @@ header{
 }
 
 nav a{
-    background-color: turquoise;
-    border: 3px solid turquoise;
+    background-color: var(--color2);
+    border: 3px solid var(--color2);
     border-radius: 10px;
     text-decoration: none;
     padding: 10px;
@@ -39,13 +41,13 @@ nav a{
 
 .hola{  
     font-size: 50px;
-    color: turquoise;
+    color: var(--color1);
     font-family: var(--font2);
 }
 
 .profesion{
     font-size: 30px;
-    color: turquoise;
+    color: var(--color1);
     font-family: var(--font2);
 }
 
@@ -53,31 +55,35 @@ h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: turquoise;
-    border: 3px solid turquoise;
+    background-color: var(--color2);
+    border: 3px solid var(--color2);
     border-radius: 10%;
     font-size: 30px;
     margin-top: 35px;
     font-family: var(--font2);
+    color: #023047;
 }
 
 p{
-    color: turquoise;
+    color: var(--color1);
     margin-left: 50px;
     margin-right: 50px;
     padding: 30px;
     margin-bottom: 35px;
+    font-size: 20px;
 }
 
 h3{
-    color: turquoise;
+    color: var(--color2);
     text-align: center;
     font-size: 30px;
+    margin: 100px 0;
 }
 
 .proyectos{
     margin: 30px;
     margin-bottom: 300px;
+    height: 100%;
 }
 
 .diseño-grid{
@@ -113,7 +119,7 @@ img:nth-of-type(4){
 
 .foto-grid{
     display: grid;
-    height: 450px;
+    height: 700px;
     grid-template-areas:
     "img1 img4 img2"
     "img1 img3 img2";
@@ -145,12 +151,12 @@ img:nth-of-type(4){
 .contactame{
     display: flex;
     flex-direction: column;
-    margin: 0 300px;
+    margin: 50px 300px 0;
 }
 
 .descripcion{
     align-self: center;
-    color: turquoise;
+    color: var(--color2);
 }
 
 .entrada{
