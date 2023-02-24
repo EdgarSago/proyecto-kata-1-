@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link rel="icon" href="">
     <title>Edgar Sago</title>
 </head>
@@ -17,37 +20,45 @@
             <a href="#">Contáctame</a>
             <a href="#">Redes Sociales</a>
         </nav>
-        <section>
-            <h1>Hola, soy Edgar Sago</h1>
-            <p>Diseñador Gráfico, Fotógrafo y Full Stack Developer</p>
-        </section>
     </header>
     <main>
-        <section>
+        <section class="img-present">
+            <div>
+                <img class="img-presentacion" src="assets/krisztian-tabori-4E-PjXTHwfs-unsplash.jpg" alt="Cámara fotográfica, celular y tableta gráfica"> 
+            </div>
+            <div>
+                <h1 class="hola">Hola, soy Edgar Sago</h1>
+                <p class="profesion">Diseñador Gráfico, Fotógrafo y <br> Full Stack Developer</p>
+            </div>
+        </section>
+        <section >
             <h2>Acerca de mí</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci et obcaecati esse eaque doloribus officiis, voluptates, officia, magnam alias fugit cumque placeat explicabo excepturi praesentium libero soluta distinctio expedita provident!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci et obcaecati esse eaque doloribus officiis, voluptates, officia, magnam alias fugit cumque placeat explicabo excepturi praesentium libero soluta distinctio expedita provident!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo dolores dolore rem perferendis, voluptas quis corrupti enim eius ipsam optio fugiat. Incidunt recusandae officiis dignissimos voluptate perspiciatis, consectetur aspernatur voluptatem.
+            </p>
             <h2>Misión</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consectetur omnis delectus, inventore nobis repellendus dolore non cum eligendi voluptatem exercitationem deserunt minus! Quis excepturi repellat sapiente minus. Tempora, unde.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consectetur omnis delectus, inventore nobis repellendus dolore non cum eligendi voluptatem exercitationem deserunt minus! Quis excepturi repellat sapiente minus. Tempora, unde. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, vitae adipisci eius consequatur temporibus tempora fugit officiis illo maiores laborum totam provident vero aut explicabo cumque quibusdam numquam eveniet! Aliquam.</p>
         </section>
         <section>
             <h2>Proyectos</h2>
-            <div>
-                <h3>Diseño Gráfico</h3>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+            <h3>Diseño Gráfico</h3>
+            <div class="diseño-grid">
+                <img src="assets/img1.jpg" alt="Cubo flotando sobre el mar">
+                <img src="assets/img2.jpg" alt="Figura Geométrica">
+                <img src="assets/img3.jpg" alt="Humano en el apocalipsis">
+                <img src="assets/img4.jpg" alt="Astronauta en algún planeta extraño">
             </div>
-            <div>
-                <h3>Fotografía</h3>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+            <h3>Fotografía</h3>
+            <div class="foto-grid">
+                <img src="assets/dan-asaki-9G60GaluG8Y-unsplash.jpg" alt="Fotografía del Metro">
+                <img src="assets/elvis-bekmanis-RXFwMWhcOi0-unsplash.jpg" alt="Boda de Ale y David">
+                <img src="assets/nick-hang-T0UJEFWU7EE-unsplash.jpg" alt="Paisaje de las montañas">
+                <img src="assets/tyler-nix-LNkBgid7TcE-unsplash.jpg" alt="Hombre sosteniendo una gorra">
             </div>
         </section>
-        <section>
-            <h2>Contáctame</h2>
+    </main>
+    <footer>
+            <h2 class="contactame">Contáctame</h2>
             <form>
                 <label for="Nombre">Nombre</label>
                 <input type="text" name="Nombre">
@@ -61,9 +72,6 @@
                 <textarea name="Comentario" id="" cols="30" rows="10"></textarea>
                 <input type="submit" name="Enviar" value="Enviar">
             </form>
-        </section>
-    </main>
-    <footer>
         <h2>Redes Sociales</h2>
     </footer>
     
