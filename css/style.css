@@ -50,13 +50,13 @@ nav a{
 }
 
 h2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: turquoise;
     border: 3px solid turquoise;
     border-radius: 10%;
     font-size: 30px;
-    text-align: center;
-    margin-left: 350px;
-    margin-right: 350px;
     margin-top: 35px;
     font-family: var(--font2);
 }
@@ -113,7 +113,7 @@ img:nth-of-type(4){
 
 .foto-grid{
     display: grid;
-    height: 550px;
+    height: 450px;
     grid-template-areas:
     "img1 img4 img2"
     "img1 img3 img2";
@@ -165,4 +165,70 @@ img:nth-of-type(4){
 
 .icon{
     width: 10vw;
+}
+
+/*media queries*/
+@media (max-width:1000px) {
+    .img-presentacion{
+        margin-top: 30px;
+    }
+    .hola{  
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .profesion{
+        font-size: 30px;
+        text-align: center;
+    }
+    .contactame{
+        margin: auto 150px;
+    }    
+}
+
+@media (max-width:550px) {
+    nav a{
+        display: flex;
+    }
+    .img-presentacion{
+        width: 45vw;
+    }
+    .hola{  
+        font-size: 40px;
+    }
+    .profesion{
+        font-size: 20px;
+    }
+    .diseño-grid{
+        height: 350px;
+    }
+    .foto-grid{
+        height: 350px;
+    }
+    .contactame{
+        margin: auto 100px;
+    } 
+}
+
+@media (max-width:320px){
+    nav a{
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .img-presentacion{
+        width: 45vw;
+        margin-left: 30px;
+    }
+    p{
+        margin: 0 15px;
+    }
+    .diseño-grid{
+        height: 250px;
+    }
+    .foto-grid{
+        height: 250px;
+    }
+    .contactame{
+        margin: auto 50px;
+    }   
 }
