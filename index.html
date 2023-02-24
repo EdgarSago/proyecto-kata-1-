@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link rel="icon" href="">
     <title>Edgar Sago</title>
 </head>
 <body>
     <header>
         <nav>
-            <a href="#">Acerca de mí</a>
-            <a href="#">Misión</a>
-            <a href="#">Proyectos</a>
-            <a href="#">Contáctame</a>
-            <a href="#">Redes Sociales</a>
+            <a href="#acerca">Acerca de mí</a>
+            <a href="#mision">Misión</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contactame">Contáctame</a>
+            <a href="#redes">Redes Sociales</a>
         </nav>
     </header>
     <main>
@@ -32,15 +32,22 @@
             </div>
         </section>
         <section >
-            <h2>Acerca de mí</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci et obcaecati esse eaque doloribus officiis, voluptates, officia, magnam alias fugit cumque placeat explicabo excepturi praesentium libero soluta distinctio expedita provident!
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo dolores dolore rem perferendis, voluptas quis corrupti enim eius ipsam optio fugiat. Incidunt recusandae officiis dignissimos voluptate perspiciatis, consectetur aspernatur voluptatem.
+            <h2 id="acerca">Acerca de mí</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ea natus esse, nulla temporibus debitis officiis repellendus tenetur animi libero corrupti qui impedit cupiditate. Pariatur cumque qui quaerat in libero!
+            Aliquam eius dolorem nam tenetur ea veritatis fugiat ipsum nostrum recusandae. Sit incidunt architecto quo quisquam nostrum qui quos officia voluptatibus enim assumenda? Iusto sequi, quis minus optio porro sit.
+            Dolorum facere laboriosam atque eaque quae molestiae veniam repudiandae nulla, dolor odit dolore ut tempora, perspiciatis aliquid labore sequi sit quibusdam impedit beatae amet. Possimus mollitia id officiis pariatur esse.
+            Non culpa atque architecto inventore quo vitae quasi nesciunt enim saepe totam autem sit animi sed vero nostrum, ipsam nulla aliquid iste ipsa eum placeat amet omnis vel recusandae. Ullam.
+            Harum facilis iure, voluptates similique dolore velit impedit beatae ad sit, sint sunt non quam dignissimos nam aut illo dolorem culpa, minus aliquid dolor amet ea expedita? Optio, dignissimos sunt?
             </p>
-            <h2>Misión</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consectetur omnis delectus, inventore nobis repellendus dolore non cum eligendi voluptatem exercitationem deserunt minus! Quis excepturi repellat sapiente minus. Tempora, unde. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, vitae adipisci eius consequatur temporibus tempora fugit officiis illo maiores laborum totam provident vero aut explicabo cumque quibusdam numquam eveniet! Aliquam.</p>
+            <h2 id="mision">Misión</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, dolor alias laudantium odit nobis omnis architecto quia, aspernatur vero quod eum perspiciatis recusandae id et exercitationem expedita voluptatibus obcaecati aut?
+            Aliquam porro facilis illo sit sunt modi dolores officiis dolore corrupti pariatur possimus ad deserunt quae obcaecati voluptatum, aperiam ducimus tempore repudiandae rem! Accusantium officia vero aspernatur commodi ut. Similique?
+            Dignissimos quae nisi magni iure vel. In doloribus magni laudantium optio labore aliquam cupiditate! Excepturi nisi vitae dolore facere, totam et. Amet id officiis culpa soluta temporibus, minima libero quia!
+            Et, id. Quos corrupti, explicabo quo, autem, numquam molestias laborum pariatur aut voluptatum beatae nesciunt modi rerum debitis ea! Hic pariatur tempore quidem odio nobis quos corporis neque dicta recusandae!
+            Error obcaecati voluptate iure totam ab fuga blanditiis, optio eum eius quasi saepe reprehenderit suscipit officiis beatae quaerat possimus impedit quae nemo laudantium, asperiores ducimus corporis. Corrupti minus distinctio atque.</p>
         </section>
-        <section>
-            <h2>Proyectos</h2>
+        <section class="proyectos">
+            <h2 id="proyectos">Proyectos</h2>
             <h3>Diseño Gráfico</h3>
             <div class="diseño-grid">
                 <img src="assets/img1.jpg" alt="Cubo flotando sobre el mar">
@@ -58,21 +65,36 @@
         </section>
     </main>
     <footer>
-            <h2 class="contactame">Contáctame</h2>
-            <form>
-                <label for="Nombre">Nombre</label>
-                <input type="text" name="Nombre">
-                <label for="telefono">Teléfono</label>
-                <input type="tel" name="Telfono">
-                <label for="Email">Correo electrónico</label>
-                <input type="email" name="email">
-                <label for="Calendario">Calendario</label>
-                <input type="date" name="Calendario">
-                <label for="Comentario">Comentario</label>
-                <textarea name="Comentario" id="" cols="30" rows="10"></textarea>
+        <section>
+            <h2 id="contactame">Contáctame</h2>
+            <form class="contactame">
+                <label class="descripcion" for="Nombre">Nombre</label>
+                <input class="entrada" type="text" name="Nombre">
+                <label class="descripcion" for="telefono">Teléfono</label>
+                <input class="entrada" type="tel" name="Telfono">
+                <label class="descripcion" for="Email">Correo electrónico</label>
+                <input class="entrada" type="email" name="email">
+                <label class="descripcion" for="Calendario">Calendario</label>
+                <input class="entrada" type="date" name="Calendario">
+                <label class="descripcion" for="Comentario">Comentario</label>
+                <textarea class="entrada" name="Comentario" id="" cols="30" rows="10"></textarea>
                 <input type="submit" name="Enviar" value="Enviar">
             </form>
-        <h2>Redes Sociales</h2>
+        </section>
+        <section>
+            <h2 id="redes">Redes Sociales</h2>
+                <div class="redes">
+                    <a href="https://es-la.facebook.com/">
+                        <img src="assets/facebbok.svg" alt="Logo de Facebook" class="icon">
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <img src="assets/instagram.svg" alt="Logo de Instagram" class="icon">
+                    </a>
+                    <a href="https://twitter.com/">
+                        <img src="assets/twitter.svg" alt="Logo de Twitter" class="icon">
+                    </a>
+                </div>
+        </section>
     </footer>
     
 </body>

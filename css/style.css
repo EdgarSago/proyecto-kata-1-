@@ -1,14 +1,13 @@
 :root{
-    --font1: 'Gruppo', cursive;
+    --font1: 'Fira Sans Extra Condensed', sans-serif;
     --font2: 'Poppins', sans-serif;
 }
 
 body{
     font-family: var(--font1);
-    box-sizing: border-box;
     background-color: rgb(6, 6, 55);
     max-width: 1200px;
-    height: 100hv;
+    height: 100vh;
 }
 
 header{
@@ -41,11 +40,13 @@ nav a{
 .hola{  
     font-size: 50px;
     color: turquoise;
+    font-family: var(--font2);
 }
 
 .profesion{
     font-size: 30px;
     color: turquoise;
+    font-family: var(--font2);
 }
 
 h2{
@@ -57,12 +58,14 @@ h2{
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 35px;
+    font-family: var(--font2);
 }
 
 p{
     color: turquoise;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 30px;
     margin-bottom: 35px;
 }
 
@@ -70,6 +73,11 @@ h3{
     color: turquoise;
     text-align: center;
     font-size: 30px;
+}
+
+.proyectos{
+    margin: 30px;
+    margin-bottom: 300px;
 }
 
 .diseño-grid{
@@ -135,5 +143,26 @@ img:nth-of-type(4){
 }
 
 .contactame{
-    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 300px;
+}
+
+.descripcion{
+    align-self: center;
+    color: turquoise;
+}
+
+.entrada{
+    display: flex;
+    justify-content: center;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    width: 10vw;
 }
